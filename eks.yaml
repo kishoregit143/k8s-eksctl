@@ -8,12 +8,8 @@ metadata:
 
 managedNodeGroups:
   - name: roboshop-dev
-    instanceTypes:
-      - t3.large
-      - t3.xlarge
-      - m5.large
-      - c5.large
-    desiredCapacity: 2
-    minSize: 2
+    instanceType: t3.micro
+    desiredCapacity: 3
+    minSize: 3
     maxSize: 3
     volumeSize: 20
