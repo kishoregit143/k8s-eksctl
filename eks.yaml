@@ -24,4 +24,4 @@ managedNodeGroups:
     desiredCapacity: 3
     minSize: 3
     maxSize: 4
-    volumeSize: 20
+    volumeSize: 10
